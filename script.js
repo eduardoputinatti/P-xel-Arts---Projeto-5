@@ -1,14 +1,14 @@
 //  // 10 requisito - incluir varias divs
-//  function addPixel () {
-//     let qtdPixel = 25;
-//     for (let index = 0; index < qtdPixel; index +=1) {
-//         let pixelParent = document.getElementById('pixel-board');
-//         let divPixel = document.createElement('div');
+ function addPixel () {
+    let qtdPixel = 500;
+    for (let index = 0; index < qtdPixel; index +=1) {
+        let pixelParent = document.getElementById('pixel-board');
+        let divPixel = document.createElement('div');
 
-//         divPixel.classList.add('pixel');
-//         pixelParent.appendChild(divPixel);
-//     }
-// } addPixel();
+        divPixel.classList.add('pixel');
+        pixelParent.appendChild(divPixel);
+    }
+} addPixel();
 
 
 // 1.cria o click
